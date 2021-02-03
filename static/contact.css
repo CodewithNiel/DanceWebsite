@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -7px;
+    font-size: 20px;
+    margin-right: 270px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: rgb(59, 0, 23);
+    padding: 15px 16px;
+}
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 1.4rem;
+}
+#navbar li a:hover{
+    color: rgb(255, 160, 196);
+    font-size: 20px;
+}
+
+.container{
+    min-height: 83.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 10px;
+}
+
+.myInput{
+    width: 500px;
+    text-align: center;
+    margin: 5px 12px;
+    padding: 6px 8px;
+    font-size: 15px;
+    border: 2px solid rgb(68, 4, 4);
+    border-radius: 5px;
+    outline: none;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 18px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin: 12px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: burlywood;
+    outline: none;
+    border-radius: 8px;
+}
+.btn:hover{
+    margin: 12px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(68, 4, 4);
+    color: aliceblue;
+    outline: none;
+    border-radius: 8px;
+}
+
+#footer{
+    display: flex;
+    height: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Yeon Sung', cursive;
+}
+
